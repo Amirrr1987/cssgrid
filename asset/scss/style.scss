@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #444;
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer'
+    ;
+}
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.footer{
+    grid-area: footer;
+}
